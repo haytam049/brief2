@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Code Events</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <h3 class="yc">You</h3>
+            <h3 class="yc"> Code</h3>
+            <h3 class="ev">Events</h3>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li class="list"><a href="index.html" class="list">Accueil</a></li>
+                <li class="list"><a href="evenement.html" class="list">Événements</a></li>
+                <li class="list"><a href="intervenent.html" class="list">Intervenants</a></li>
+                <li class="list"><button onclick="document.location='inscription.html'"
+                        class="list1">S'inscrire</button></li>
+            </ul>
+
+        </nav>
+        <div class="menuicon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </header>
+    <main>
+        <!-- partie evenement -->
+        <div class="event">
+            <div class="title1">
+                <h1 class="headline">Prochains événements</h1>
+                <a href="evenement.html" class="link1">Tous les événements →</a>
+            </div>
+            <div class="bigrange">
+                <div class="range">
+                    <img src="assets/images/event1.png" alt="" class="img1">
+                    <div class="content">
+                        <h3 class="title2">atelier</h3>
+                        <h2 class="title3">Atelier Flexbox et CSS Grid</h2>
+                        <div class="calendar">
+                            <img src="assets/icons/calendar-svgrepo-com.svg" alt="" class="icon">
+                            <h6>12 nov. 2026 · 14h00</h6>
+                        </div>
+                        <div class="pin">
+                            <img src="assets/icons/pin-svgrepo-com.svg" alt="" class="icon">
+                            <h6>Salle Turing, YouCode Safi</h6>
+                        </div>
+                        <div class="arrow">
+                            <h6>voir les details</h6>
+                            <img src="assets/icons/arrow-right- orange-svgrepo-com.svg" alt="" class="icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="break"></div>
+                <div class="range">
+                    <img src="assets/images/event2.png" alt="" class="img1">
+                    <div class="content">
+                        <h3 class="title2">Conférence</h3>
+                        <h2 class="title3">Accessibilité Web : par où commencer ?</h2>
+                        <div class="calendar">
+                            <img src="assets/icons/calendar-svgrepo-com.svg" alt="" class="icon">
+                            <h6>19 nov. 2026 · 10h00</h6>
+                        </div>
+                        <div class="pin">
+                            <img src="assets/icons/pin-svgrepo-com.svg" alt="" class="icon">
+                            <h6>Amphithéâtre, YouCode Youssoufia</h6>
+                        </div>
+                        <div class="arrow">
+                            <h6>voir les details</h6>
+                            <img src="assets/icons/arrow-right- orange-svgrepo-com.svg" alt="" class="icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="break"></div>
+                <div class="range">
+                    <img src="assets/images/event3.png" alt="" class="img1">
+                    <div class="content">
+                        <h3 class="title2">Hackathon</h3>
+                        <h2 class="title3">Hackathon Green Code</h2>
+                        <div class="calendar">
+                            <img src="assets/icons/calendar-svgrepo-com.svg" alt="" class="icon">
+                            <h6>28 et 29 nov. 2026</h6>
+                        </div>
+                        <div class="pin">
+                            <img src="assets/icons/pin-svgrepo-com.svg" alt="" class="icon">
+                            <h6>Campus YouCode Safi</h6>
+                        </div>
+                        <div class="arrow">
+                            <h6>voir les details</h6>
+                            <img src="assets/icons/arrow-right- orange-svgrepo-com.svg" alt="" class="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fin partie evenement -->
+        <!-- debut partie categorie -->
+        <div>
+            <h2 class="bigcat">Explorer par catégorie</h2>
+            <div class="cat">
+                <div class="smallcat">
+                    <img src="assets/icons/settings-svgrepo-com.svg" alt="" class="icon1">
+                    <div class="subbreak"></div>
+                    <h3 class="header1">Ateliers</h3>
+                    <div class="subbreak"></div>
+                    <h5 class="sub">14 événements</h5>
+                </div>
+                <div class="break"></div>
+                <div class="smallcat">
+                    <img src="assets/icons/microphone-svgrepo-com.svg" alt="" class="icon1">
+                    <div class="subbreak"></div>
+                    <h3 class="header1">Conférences</h3>
+                    <div class="subbreak"></div>
+                    <h5 class="sub">12 événements</h5>
+                </div>
+                <div class="break"></div>
+                <div class="smallcat">
+                    <img src="assets/icons/code-xml-svgrepo-com.svg" alt="" class="icon1">
+                    <div class="subbreak"></div>
+                    <h3 class="header1">Hackathons</h3>
+                    <div class="subbreak"></div>
+                    <h5 class="sub">4 événements</h5>
+                </div>
+                <div class="break"></div>
+                <div class="smallcat">
+                    <img src="assets/icons/group-of-people-svgrepo-com.svg" alt="" class="icon1">
+                    <div class="subbreak"></div>
+                    <h3 class="header1">Rencontres</h3>
+                    <div class="subbreak"></div>
+                    <h5 class="sub">10 événements</h5>
+                </div>
+                <div class="break"></div>
+            </div>
+        </div>
+        <!-- fin partie categorie -->
+    </main>
+    <script>
+        let menu = document.getElementById("menu")
+        menu.style.maxHeight = "0px";
+        function toggleMenu() {
+            if (menu.style.maxHeight == "0px") {
+                menu.style.maxHeight = "300px";
+            } else {
+                menu.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
