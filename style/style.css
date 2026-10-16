@@ -173,6 +173,103 @@
     .list1{
         margin-top: -15px;
     }
+    .headline{
+        text-align: center;
+    }
+    .link1{
+        color: #C2410C;
+        text-decoration: none;
+        
+    }
+    .title1{
+        padding: 28px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .range{
+        margin-left:15px ;
+        margin-right: 15px;
+        border: 1px solid #E7E5E4;
+        box-shadow: 5px 5px 20px gray;
+        border-radius: 20px;
+    }
+    .img1{
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .title2{
+        background-color: #FFEDD5;
+        border-radius: 20px;
+        width:fit-content;
+        height: 28px;
+        text-align: center;
+        padding-top: 4px;
+        font-size: medium;
+        padding: 5px;
+    }
+    .title3{
+        padding-top: 10px;
+    }
+    .content{
+        padding: 15px;
+        row-gap: 50px;
+    }
+    .icon{
+        width: 15px;
+        height: 16px;
+
+    }
+    .calendar{
+        display: flex;
+        color: #57534E;
+        padding-top: 10px;
+    }
+    .pin{
+        display: flex;
+        color: #57534E;
+        padding-top: 10px;
+    }
+    .arrow{
+        display: flex;
+        color: #C2410C;
+        padding-top: 10px;
+    }
+    .break{
+        height: 25px;
+    }
+    .bigcat{
+        padding: 20px;
+    }
+    .cat{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .smallcat{
+        border: 1px solid #E7E5E4;
+        box-shadow: 5px 5px 20px gray;
+        border-radius: 20px;
+        height: 168px;
+        padding: 20px;
+    }
+    .icon1{
+        width: 24px;
+        height: 24px;
+        background-color: #FFEDD5;
+        border-radius: 50%;
+    }
+    .sub{
+        color: #57534E;
+        font-size: 12px;
+    }
+    .subbreak{
+        height: 10px;
+    }
+    .bigrange{
+        display: grid;
+        grid-template-columns: auto ;
+        
+    }
 }
 @media(min-width:768px){
     .header{
