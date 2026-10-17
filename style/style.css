@@ -353,6 +353,9 @@ footer{
     nav{
         font-size: 12px;
     }
+    .menuicon{
+        display: none;
+    }
     .yc{
         font-size: 18px;
         margin-top: 10px;
@@ -469,6 +472,9 @@ footer{
 @media(min-width:769px){
     .header{
         display: flex;
+    }
+    .menuicon{
+        display: none;
     }
     ul{
         display: flex;
