@@ -186,6 +186,7 @@ footer{
     grid-template-columns: 1fr;
     align-items: center;
     gap : 15px;
+}
   /* fin partie 1 et debut partie2 */
 *{
     margin: 0px;
